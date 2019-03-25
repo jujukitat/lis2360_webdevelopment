@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	color: #000000;
+	background-color: #CB925E;
+	padding: 0 20px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.01em;
+	color: #000000;
+}
+h1 {
+	font-size: 28px;
+	padding: 1px 0;
+	letter-spacing: .2em;
+	line-height: 2em;
+}
+h2 {
+	font-size: 24px;
+	padding: 4px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+	background-color: #000000;
+	color: #F7FFF6;
+}
+h3 {
+	font-size: 18px;
+	letter-spacing: 0.1em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: #000000;
+	padding: 1px 0;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #EB392E;
+	
+}
+a:visited {
+	font-weight: bold;
+	color: #EB392E;
+	
+}
+a:hover {
+	color: #F7FFF6;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	margin-left: 12px;
+}
+ol {
+	margin-left: 14px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #000000 1px;
+}
+td {
+	padding: 6px;
+	border: solid #000000 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #F7FFF6;
+	text-align: center;
+	padding: 3px;
+	border: solid #000000 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #000000 1px;
+}
+
+img {
+	border: solid #000000 1px;
+
+}
+
+iframe {
+	border: solid #000000 1px;
+	padding: 6px;
+	margin: 6px;
+}
