@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/*Julia Fagnoni/ completed on April 4, 2019 -- */
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	color: #000000;
+	background-color: #CB925E;
+	padding: 0 40px;
+	margin: 0;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.01em;
+	color: #000000;
+	padding: 0 40px;
+}
+h1 {
+	font-size: 28px;
+	padding: 0 40px;
+	letter-spacing: .2em;
+	line-height: 2em;
+	margin: 0 ;
+}
+h2 {
+	font-size: 24px;
+	padding: 0 40px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+	color: #000;
+}
+h3 {
+	font-size: 18px;
+	letter-spacing: 0.1em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: #000000;
+	padding: 0 40px;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #EB392E;
+	
+}
+a:visited {
+	font-weight: bold;
+	color: #EB392E;
+	
+}
+a:hover {
+	color: #F7FFF6;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	margin-left: 12px;
+}
+ol {
+	margin-left: 60px;
+}
+ol li{
+	padding-left: 0px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #000000 1px;
+}
+td {
+	padding: 6px;
+	border: solid #000000 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #F7FFF6;
+	text-align: center;
+	padding: 3px;
+	border: solid #000000 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #000000 1px;
+}
+
+img {
+	border: solid #000000 1px;
+
+}
+
+iframe {
+	border: solid #000000 1px;
+	padding: 6px;
+	margin: 6px;
+}
+
+/* DIV STYLES FOR PAGE LAYOUT */
+#container {
+	width: 900px;
+	margin: 0 auto;
+	border: 1px solid #000;
+	background-color: #fff;
+	overflow: hidden;
+}
+#header{
+	width: 100%;
+	background-color:#fff;
+	border-bottom: 1px solid #000;
+	padding-bottom: 40px;
+}
+#content{
+	width: 600px;
+	float: left;
+	padding-bottom: 40px;
+}
+#sidebar{
+	width: 280px;
+	float: left;
+	margin-top: 50px;
+	margin-right: 20px;
+}
+#sidebar p{
+	padding: 10px;
+	border: 1px solid #000;
+	border-radius: 12px;
+	box-shadow: 10px 10px 5px #888;
+}
+#footer{
+	width: 100%;
+	background-color:#fff;
+	border-top: 1px solid #000;
+	padding: 40px 0;
+	clear: both;
+}
+#footer p{
+	margin: 0;
+}
