@@ -52,7 +52,7 @@ a:visited {
 	
 }
 a:hover {
-	color: #F7FFF6;
+	color: #7E827E;
 }
 
 /* list styles ----------------------------- */
@@ -109,8 +109,7 @@ iframe {
 #header{
 	width: 100%;
 	background-color:#fff;
-	border-bottom: 1px solid #000;
-	padding-bottom: 40px;
+	padding: 0;
 }
 #content{
 	width: 600px;
