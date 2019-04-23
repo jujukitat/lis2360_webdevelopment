@@ -1,0 +1,273 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Julia Fagnoni Finished April 23, 2019 -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/carousel/">
+
+
+    <title>Carousel Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+    <style>
+      .navbar-inverse{
+        background-color: #41A689;
+        border-color: #080808;
+      }
+      .navbar-inverse .navbar-nav > li > a {
+        color: #E0E0E0;
+      }
+      .navbar-inverse .navbar-brand {
+        color: #E0E0E0;
+      }
+      @media (min-width: 768px){
+        .navbar-wrapper .navbar {
+          border-radius: 30px;
+        }
+        .navbar-wrapper {
+          margin-top: 0px;
+        }
+      }
+      .carousel-inner > .item > img {
+        height: auto;
+      }
+      @media (max-width: 899px){
+        .carousel {
+          height: 400px;
+        }
+        .carousel .item {
+          height: 400px;
+          background-color: #fff;
+        }
+      }
+      @media (max-width: 719px) {
+        .carousel-inner > .item > img {
+          width: 719px;
+          max-width: 719px;
+          height: 400px;
+        }
+      }
+       .btn-primary {
+          color: #222222;                   
+          background-color: #41A689;        
+          border-color: #000000;
+        }
+        .btn-primary:hover {  
+		   color: #fff;                
+          background-color: #41A689;       
+          border-color: #000000;
+		   }
+      
+    </style>
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Relieving Stress</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Stress</a></li>
+                <li><a href="#">Music</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Websites <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Spotify</a></li>
+                    <li><a href="#">Youtube</a></li>
+                    <li><a href="#">Pandora</a></li>
+                    <li><a href="#">iTunes</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="images/image7.jpg" alt="Singing in the car">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Why Stress When You Can Sing?</h1>
+              <p>Singing is a great way to let out your stress after a long day.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="images/image8.jpg" alt="Stressed image 1">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Got too much going on in life?</h1>
+              <p>Sometimes it can feel like the weight of the world is on your shoulders. Stress is a heavy weight to carry day to day. Try to find an escape from it with music.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="images/image10.jpg" alt="Listening to music">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Put the world on pause and hit play on music.</h1>
+              <p>With so many different songs and playlists to listen to, why not find a few? There is so much music out there to listen to, so start today!</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      <div class="item">
+          <img class="fourth-slide" src="images/image9.jpg" alt="Stress image 2">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Need help dealing with stress?</h1>
+              <p>It is okay to ask for help with stress. But if you do not want to, you can always try listening to music.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/image2.jpg" alt="Spotify logo" width="140" height="140">
+          <h2>Spotify</h2>
+          <p>Spotify is a free way to listen to music on any laptop or mobile device. All that you have to do is download it to your computer or the app on your phone. You can upgrade to Spotify premium for more features, if you want.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/image1.jpg" alt="YouTube logo" width="140" height="140">
+          <h2>Youtube</h2>
+          <p>YouTube is one of the most common webistes to listen to music on. Users can look up a variety of videos, such as lyric videos, music videos, or just simply music. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/image3.jpg" alt="Pandora logo" width="140" height="140">
+          <h2>Pandora</h2>
+          <p>Pandora is a lot similar to Spotify, such as being able to visit the website or download the app on your mobile device, except it plays stations based on music songs you previously listened to. There are a variety of playlists you can choose from.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Feeling Stressed? <span class="text-muted">This will help.</span></h2>
+          <p class="lead">Stress. It is so common in today's society with young and old people alike. It does not just affect those in school but also those in the workplace. With all this stress in the world, what can help people who are suffering? </p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="images/image4.jpg" alt="Popping stress balloon">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Music <span class="text-muted">It can do more than you think. </span></h2>
+          <p class="lead">Music was a common technique that was found effective in many different research studies. It showed that listening to calming music helped works be able to perform better. Listening to music as a way to calm down after a stressful day can relax a person to the point that they can even forget about their stress for a moment. Driving home and listening to music is a great way to destress after work or school. All it takes is finding the right song or the right playlist can make a difference. That is why websites such as Spotify and Pandora have stations made specificly for relaxation and destressing. The amount of people who use these stations monthly is in the thousands. If that many people use them, it must work!</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="images/image5.jpg" alt="Music on the Mind">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Stress <span class="text-muted">Everyone struggles with it.</span></h2>
+          <p class="lead">For years, researchers, such as doctors and psychologists,  have looked for solutions to helping reduce stress among people. Some found that yoga was the way to go. Others said that it was taking long, quiet walks. Each person is different and so is their stress. What works for one person may not work for another. This is why there are now so many different ways to reduce stress.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="images/image6.jpg" alt="Stress on the Mind">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; Julia Fagnoni &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>');</script>
+    
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    
+    <script src="js/holder.min.js"></script>
+    
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
